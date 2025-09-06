@@ -13,7 +13,6 @@ class Solution:
                     if j==0 or j==(len(recLst)):
                         dupList.append(1)
                     else:
-                        print(res,recLst,j)
                         dupList.append(recLst[j-1]+recLst[j])
                 res.append(dupList)
         return res
