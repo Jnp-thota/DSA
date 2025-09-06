@@ -15,6 +15,5 @@ class Solution:
                     else:
                         dupList.append(recLst[j-1]+recLst[j])
                 res.append(dupList)
-        print(len(res))
         return res[rowIndex]
         
